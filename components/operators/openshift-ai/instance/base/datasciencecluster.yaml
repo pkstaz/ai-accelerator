@@ -5,9 +5,9 @@ metadata:
 spec:
   components:
     codeflare:
-      managementState: Removed
+      managementState: Managed
     kserve:
-      managementState: Removed
+      managementState: Managed
       serving:
         ingressGateway:
           certificate:
@@ -15,16 +15,18 @@ spec:
         managementState: Managed
         name: knative-serving
     trustyai:
-      managementState: Removed
+      managementState: Managed
     ray:
-      managementState: Removed
+      managementState: Managed
     kueue:
-      managementState: Removed
+      managementState: Managed
     workbenches:
-      managementState: Removed
+      managementState: Managed
     dashboard:
       managementState: Managed
     modelmeshserving:
-      managementState: Removed
+      managementState: Managed
     datasciencepipelines:
+      managementState: Managed
+    trainingoperator:
       managementState: Removed
